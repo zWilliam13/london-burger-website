@@ -1,0 +1,149 @@
+#banner {
+    position: absolute;
+}
+
+.banner1{
+  background-image: url("../img/Empleador.png") ;
+}
+
+.banner2{
+  background-image: url("../img/banner2.png") ;
+}
+
+.banner3{
+  background-image: url("../img/signo.png");
+}
+
+section{
+  margin-bottom:0px;
+  padding: 80px;
+  width: 90%;
+}
+
+*{
+  font-family: 'Roboto';
+}
+
+h1{
+  font-size: 30px;
+}
+
+label{
+  font-size: 20px;
+}
+
+ .container{
+  display: flex;
+  height: 130vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+ }
+
+.formulario1 {
+    border-radius: 40px;
+    background-color: aqua;
+    display: flex;
+    flex-flow: column;
+    background: #fff;
+    width: 40%;
+    height: 70%;
+    padding: 25px;
+    align-items: center;
+  }
+
+  .formulario2 {
+    border-radius: 40px;
+    background-color: aqua;
+    display: flex;
+    flex-flow: column;
+    background: #fff;
+    width: 40%;
+    height: 90%;
+    padding: 25px;
+    align-items: center;
+  }
+
+  .formulario3 {
+    border-radius: 40px;
+    background-color: aqua;
+    display: flex;
+    flex-flow: column;
+    background: #fff;
+    width: 40%;
+    height: 120%;
+    padding:25px;
+    align-items: center;
+    position: relative;
+  }
+
+  .formulario3 input{
+    height: 20%;
+
+  }
+  
+  input{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 20px;
+
+    width: 70%;
+    border-bottom: 3px solid #000;
+  }
+
+  .resultado1{
+    height: 70%;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    width: 50%;
+    border-bottom: 3px solid #000;
+  }
+
+.resultado2{
+  font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    width: 60%;
+    height: 20%;
+    border-bottom: 3px solid #000;
+}
+
+.resultado3{
+  font-size: 20px;  
+    border: none;
+    outline: none;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid #000;
+}
+
+p{
+  font-size: 20px;
+}
+ button{
+  cursor: pointer;
+  text-transform: uppercase;
+  border: none;
+  padding: 15px;
+ }
+
+ button:hover{
+  color: #fff;
+  background: #007AFF;
+  transform: scale(1.0);
+  box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
+ }
+
+ #imagenSigno {
+  position: absolute; 
+  top: 80%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  max-width: 50%; 
+  max-height: 20%; 
+}

@@ -1,0 +1,4 @@
+[05-Jun-2023 12:56:59 America/New_York] PHP Parse error:  syntax error, unexpected '$header' (T_VARIABLE) in /home/zjemzzro/public_html/London-Burger-&-cheers/php/email.php on line 12
+[05-Jun-2023 12:57:40 America/New_York] PHP Parse error:  syntax error, unexpected '$header' (T_VARIABLE) in /home/zjemzzro/public_html/London-Burger-&-cheers/php/email.php on line 12
+[05-Jun-2023 16:12:33 America/New_York] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/zjemzzro/public_html/London-Burger-&-cheers/php/emailV02.php on line 25
+[05-Jun-2023 16:19:16 America/New_York] PHP Parse error:  syntax error, unexpected ':', expecting ')' in /home/zjemzzro/public_html/London-Burger-&-cheers/php/email.php on line 39

@@ -1,0 +1,130 @@
+
+
+
+header {
+    background: #202020;
+    width: 100%;
+    
+    padding: 10px;
+   
+    
+}
+
+
+header img {
+    width : 100px;
+    
+    display: block;
+    
+   
+}
+ 
+
+
+.arr{
+    display: flex;
+    justify-content: center;
+    margin: auto 0;
+    align-items: center;
+    
+}
+.arr h2{
+    color: white;
+    
+  
+}
+
+.reclamaciones{
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+
+.reclamaciones table {
+    border: solid 2px black;
+    
+}
+/*
+.tot {
+    margin-left: 20%;
+    margin-right: 25%;
+}*/
+
+.recla {
+    color: peru;
+    font-size: 15px;
+    table-layout: fixed;
+    border-radius: 15px;
+
+
+}
+
+.recla th {
+    padding: 10px 15px;
+   
+    /*text-transform: uppercase;*/
+    border: solid black 1px;
+    font-size: 20px;
+}
+
+.recla th {
+    cursor: pointer;
+   
+  
+}
+
+.recla th:hover {
+    background: rgb(0, 0, 0);
+}
+
+.nopointer {
+    background-color: #f5ebdc;
+}
+i{
+  transform: scale(3);      
+}
+
+.fa-trash:hover {
+    background-color: #f5ebdc;
+    color: black;
+    box-shadow: 0 0 15px #f5ebdc,
+        0 0 45px peru 0 0 75px #f5ebdc,
+        0 0 115px #f5ebdc;
+}
+
+.fa-circle-check:hover {
+    background-color: #f5ebdc;
+    color: black;
+    box-shadow: 0 0 15px #f5ebdc,
+        0 0 45px peru 0 0 75px #f5ebdc,
+        0 0 115px #f5ebdc;
+}
+
+.holi img {
+    width: 25%;
+    margin-right: 100%;
+    padding: 15px 30px;
+
+}
+
+.comienzo a {
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    width: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin: 150px 130px;
+    padding: 15px 30px;
+    color: black;
+    
+    text-decoration: none;
+
+}
+
+.comienzo a:hover {
+    color: peru;
+    cursor: pointer;
+    background-color: #f5ebdc;
+    font-weight: 900;
+    transition: 0.1s;
+}

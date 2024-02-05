@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #666666;
+    font-size: 28px;
+    border-bottom: 1px solid #a8a8a8;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+body {
+background: #f1f3f4;
+}
+
+
+#from {
+    width: 50vh;
+    height: auto;
+    margin: 12vh auto;
+    background: #fff;
+    padding: 25px;
+    
+}
+
+#from .contenedor form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+#from .contenedor form div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+input, select {
+    width: 70%;
+    height: 35px;
+    display: block;
+    padding: 5px 15px;
+    border: 1px solid #a8a8a8;
+    margin-bottom: 15px;
+}
+
+
+.boton {
+    display: flex;
+    justify-content: space-around !important;
+}
+
+.btn {
+    width: 40% !important;
+    height: 30px;
+    background: green;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0px;
+    font-size: 13px;
+}
+#cancelar {
+    background: red !important;;
+    text-align: center;
+    text-decoration: none;
+    padding-top:8px
+}
+
+
+img {
+    width: 100px;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+

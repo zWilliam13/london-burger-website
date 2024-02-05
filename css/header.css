@@ -1,0 +1,119 @@
+header {
+  background: #202020;
+  color: #fff;
+  width: 100%;
+  height: auto;
+}
+
+header img {
+  width: 100px;
+  height: auto;
+  display: block;
+  padding: 10px;
+}
+
+header nav ul li {
+  list-style: none;  
+}
+
+.contenedor nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  display: block;
+  width: 100px;
+}
+
+nav ul li a:hover {
+  background: #474747;
+  opacity: 1;
+  transition: 0.9s;
+  border-radius: 1px;
+  color: #fff;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.menu div {
+    width: 100%;
+}
+
+
+.menu .menu-iten {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+
+.menu .menu-iten .sub-menu ul {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 13px;
+    text-align: center;
+    padding: 0px;
+}
+
+.menu .menu-iten .menu-lista {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+.menu .menu-iten .menu-lista li {
+    margin-left: 30px
+    
+}
+
+#iniciar-sesion:hover {
+    background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modo-oscuro {
+  background-color: #202020;
+  color: #fff;
+}
+
+.modo-oscuro header {
+  background: #000;
+}
+
+.modo-oscuro header nav ul li a {
+  color: #fff;
+}
+
+.modo-oscuro h3 {
+  color: #fff;
+}
+
+.modo-oscuro .cotenedor-boton {
+  color: #fff;
+}
